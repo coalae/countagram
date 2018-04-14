@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.ac.univie.countagram">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AddcaloryintakeActivty"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".activity.AddNewProductActivity" />
+        <activity android:name=".activity.CaloryIntakeActivity" />
+        <activity android:name=".activity.CompetitionAddNewActivity" />
+        <activity android:name=".activity.CompetitionCurrentViewActivity" />
+        <activity android:name=".activity.CompetitionMainActivity" />
+        <activity android:name=".activity.CompetitionScoreActivity" />
+        <activity android:name=".activity.MyProfileActivity" />
+        <activity android:name=".activity.ResetAccountInfoActivity" />
+        <activity android:name=".activity.ResetGoalActivity" />
+        <activity android:name=".activity.ResetPersonalDetailsActivity" />
+        <activity android:name=".activity.ResetPersonalDetails2Activity" />
+        <activity android:name=".activity.NutritionstatisticsAdviceActivity" />
+        <activity android:name=".activity.NutritionstatisticsGeneralInfoActivity" />
+        <activity android:name=".activity.NutritionstatisticsMainActivity" />
+        <activity android:name=".activity.NutritionstatisticsMystatisticsActivity" />
+        <activity android:name=".activity.SearchRecipeActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.RegisterChoosGoalActivity" />
+        <activity android:name=".activity.RegisterPersonalDetailsActivity" />
+        <activity android:name=".activity.RegisterPersonalDetails2Activity" />
+        <activity android:name=".activity.Main2Activity" />
+        <activity android:name=".activity.AboutusActivity"></activity>
+        <activity android:name=".activity.CaloryIntakeHelpActivity"></activity>
+    </application>
+
+</manifest>

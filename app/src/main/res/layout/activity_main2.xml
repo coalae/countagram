@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="at.ac.univie.countagram.activity.Main2Activity">
+
+    <ImageButton
+        android:id="@+id/statisticsArea"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@null"
+        android:onClick="statisticsOnclick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        app:srcCompat="@mipmap/statistics_navi" />
+
+    <ImageButton
+        android:id="@+id/recipesArea"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@null"
+        android:onClick="recipesOnclick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        app:srcCompat="@mipmap/recipes" />
+
+    <ImageButton
+        android:id="@+id/addIntakeButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@null"
+        android:onClick="addIntakeOnclick"
+        android:scaleType="fitXY"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <ImageButton
+        android:id="@+id/competitionArea"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@null"
+        android:onClick="competitionOnclick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        app:srcCompat="@mipmap/game2" />
+
+    <ImageButton
+        android:id="@+id/settingsArea"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@null"
+        android:onClick="settingsOnclick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        app:srcCompat="@mipmap/settings" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">COUNT-A-GRAM</string>
+    <string name="FalscheEingabe">Falsche eingabe</string>
+    <string name="usernameOrPasswordWrong">username or password is wrong!!</string>
+    <string name="HeightInteger">Height must be Integer!!</string>
+    <string name="WeightInteger">Weight must be Integer!!</string>
+    <string name="TargetWeightInteger">Target Weight must be Integer!!</string>
+    <string name="updateSuccessful">Update Successful</string>
+    <string name="updateHeight">Height Updated</string>
+    <string name="updateWeight">Weight Updated</string>
+    <string name="updateTargetWeight">Target Weight Updated</string>
+    <string name="updateFirstname">Firstname Updated</string>
+    <string name="updateLastname">Lastname Updated</string>
+    <string name="updatePassword">Password updated</string>
+    <string name="updateEmail">Email updated</string>
+    <string name="userCannotAdd">User cannot add</string>
+    <string name="loginInformation">Username or password must not be empty</string>
+    <string name="fehlerSetUser">Error during setUser()</string>
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>

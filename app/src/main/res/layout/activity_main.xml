@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="at.ac.univie.countagram.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/passwordTxt"
+        android:layout_width="257dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <TextView
+        android:id="@+id/forgotPasswordTxt"
+        android:layout_width="257dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif"
+        android:text="Forgot password?"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <TextView
+        android:id="@+id/usernameTxt"
+        android:layout_width="257dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446" />
+
+    <TextView
+        android:id="@+id/welcomeTxt"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
+        android:fontFamily="sans-serif"
+        android:text="Welcome to Count-A-Gram, the Calory Counter!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <ImageView
+        android:id="@+id/countagramLogo"
+        android:layout_width="452dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="257dp"
+        android:layout_height="41dp"
+        android:contentDescription="Name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
+        tools:text="Name" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="257dp"
+        android:layout_height="43dp"
+        android:contentDescription="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694"
+        tools:text="Password" />
+
+    <Button
+        android:id="@+id/aboutUsButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:background="?android:attr/colorButtonNormal"
+        android:onClick="aboutUsOnClick"
+        android:text="About us"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <Button
+        android:id="@+id/asGuestButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:background="?android:attr/colorButtonNormal"
+        android:text="As Guest"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <Button
+        android:id="@+id/registerButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:background="?android:attr/colorButtonNormal"
+        android:onClick="registerOnClick"
+        android:text="Register"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="113dp"
+        android:layout_height="45dp"
+        android:background="@android:color/holo_green_light"
+        android:onClick="loginOnClick"
+        android:text="Login"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+</android.support.constraint.ConstraintLayout>
